@@ -1,0 +1,332 @@
+/*This is the header of the website*/
+#name{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#jobtitle{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+#jobtitle{
+    text-align: center;
+}
+/* End of head of website */
+
+body{
+    background-color:rgb(180, 89, 89);
+}
+
+hr{
+    color: black;
+    margin:0px;
+}
+
+/*Here is the nav bar of the website */
+nav{
+    width: 100%;
+    border: solid 0px rgb(66, 74, 109);
+    background-color:rgb(66, 74, 109);
+}
+
+nav ul{
+    list-style-type: none;
+    /*margin: 0;*/
+    /*padding: 0;*/
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 90%;
+    margin: 0 auto 0 auto;
+
+}
+
+nav a{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color:rgb(36, 99, 27)
+}
+
+nav li{
+    display: inline;
+    border:rgb(66, 74, 109) 2px solid;
+    width: 50%;
+    margin-left: 400px;
+}
+/*End of the nav bar in the website. */
+
+
+/*WEBSITE TITLES:*/
+
+#contact-title{
+    font-size: 1.6em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 114, 233);
+}
+
+#professional-summary-title{
+    font-size: 1.6em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 114, 233);
+}
+
+#education-title{
+    font-size: 1.6em;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-style: italic;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 114, 233);
+}
+
+#skills-title{
+    font-size: 1.6em;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-style: italic;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 114, 233);
+
+}
+
+#certifications-title{
+    font-size: 1.6em;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-style:italic;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 114, 233);
+}
+
+#experience-title{
+    font-size: 1.6em;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-style: italic;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 114, 233);
+}
+
+#aero-title{
+    font-size: 16px;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-style:normal;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 114, 233);
+}
+
+#staples-title{
+    font-size: 16px;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-style:normal;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 114, 233);
+}
+
+#highschool-title{
+    font-size: 16px;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-style:normal;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 114, 233);
+}
+/*END OF WEBSITE TITLES.*/
+
+
+/*POSIITON TITLES AND DESCRIPTIONS*/
+#aero-position{
+    font-size: 16px;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-style:italic;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 114, 233);
+}
+
+#aero-experience{
+    color:white
+}
+
+#staples-position{
+    font-size: 16px;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-style:italic;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 114, 233);
+}
+
+#staples-experience{
+    color:white
+}
+
+#hsclub-position{
+    font-size: 16px;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-style:italic;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(71, 114, 233);
+}
+
+#hsclub-experience{
+    color:white;
+}
+
+
+/* SECTION COLORS AND DIMENSIONS*/
+.container1{
+    display: flex;
+}
+
+.container2{
+    display:flex;
+}
+
+#contact{
+    
+    background-color:rgba(112, 62, 133, 0.719);
+    height:200px;
+    width:50%;
+}
+
+#professional{
+    background-color:rgba(202, 151, 191, 0.747);
+    height: 200px;
+    width:50%;
+}
+
+#experience{
+    background-color:rgb(243, 239, 55);
+    height: 50em;
+    width: 50%;
+    
+}
+#skills-education{
+    background-color:rgba(68, 192, 72, 0.747);
+    height: 50em;
+    width: 50%;
+    
+}
+
+/* INFO */
+
+#contact-info{
+    color:white;
+    text-align: center;
+}
+
+#professional-info{
+    color: white;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#skill-list{
+    color:rgb(0, 0, 0);
+    margin-left: 5px;
+}
+
+#certifications-info{
+    color:rgb(5, 5, 5);
+    margin-left: 20px;
+}
+
+/* END OF INFO */
+
+
+/*EDUCATION TIMES AND TITLES*/
+.lehman-info{
+    color:rgb(7, 7, 7);
+    margin-left: 20px;
+}
+
+#lehman-title{
+    font-weight: bold;
+}
+
+#bachelor-title{
+    font-weight: bold;
+}
+
+.bcc-info{
+    color:rgb(2, 2, 2);
+    margin-left: 20px;
+}
+
+#bcc-title{
+    font-weight: bold;
+}
+
+#associates-title{
+    font-weight: bold;
+}
+#aero-duration{
+    size: 12px;
+    margin-left:24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color:rgb(0, 0, 0);
+
+}
+
+#staples-duration{
+    size: 12px;
+    margin-left:24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color:rgb(0, 0, 0);
+
+}
+
+#hsclub-duration{
+    size: 12px;
+    margin-left: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color:rgb(0, 0, 0);
+}
+
+/*This the the footer of the website.*/
+
+footer{
+    color: rgb(154, 184, 241);
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+/*This is the end of the footer of the website.*/
